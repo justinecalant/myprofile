@@ -1,0 +1,94 @@
+/* Colors and fonts*/
+body {
+	background :white;
+	color: #333333
+	font-family : Courier;
+	font-size : 17px;
+	line-height : 1.8;
+	}
+	
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+}	
+h1 { 
+	color: #192965;
+	font-size:32px;
+	line-height: 1.8;
+	letter-spacing: 3px;
+}
+h2 {
+	color: #40BFC1;
+	font-size :20px;
+	font-weight: lighter;
+	font-weight:600;
+	line-height 1.8;
+	letter-spacing:  1px;
+	}
+a { 
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #35495E;
+	font-weight: 600;
+	font-size: 16px;
+	}
+
+a:hover { 
+	color: #bbcfff;
+	text-decoration: none;
+	}
+
+/*custom design*/
+
+.container{
+	 width: 700px;
+	 margin: 40px auto;
+   }
+
+
+.card-white {
+	background:#F2F2f2;
+	padding: 40px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px; 
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	width: 200px;
+	text-align: center;
+
+}
+.btn-blue {
+	background-color: #35495E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding left: 0px
+}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+	color: #40BFC1;
+
+}
+.list-horizontal i:hover{
+	color: black;
+}
+
+
+
+
